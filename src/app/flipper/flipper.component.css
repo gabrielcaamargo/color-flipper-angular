@@ -1,0 +1,34 @@
+h1{
+  font-size: 48px;
+}
+
+span{
+  color: rgb(112, 62, 228);
+}
+
+.result{
+  width: 100%;
+  border-radius: 8px;
+  background-color: green;
+  height: 160px;
+  margin-top: 16px;
+}
+
+.generateColor{
+  margin-top: 16px;
+  width: 100%;
+  padding: 8px;
+  color: #FFF;
+  background-color: rgb(112, 62, 228);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color .1s ease-in;
+  cursor: pointer;
+}
+
+.generateColor:hover{
+  background-color: rgb(123, 85, 228);
+}
